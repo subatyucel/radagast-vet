@@ -1,0 +1,63 @@
+.contact__section {
+  &-a {
+    overflow: hidden;
+    .container {
+      width: 100vw;
+      height: 75vh;
+      background-color: $color4;
+      background: url(../images/vet-contact.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .section-text {
+        text-align: center;
+        font-size: 2rem;
+        color: #fff;
+        border-radius: 3rem;
+        padding: 1.2rem;
+        background-color: rgba(15, 16, 53, 0.5);
+      }
+    }
+  }
+
+  &-b {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5%;
+      padding: 5%;
+      text-align: center;
+
+      h3 {
+        padding: 1rem;
+        font-size: 2rem;
+      }
+
+      a {
+        color: black;
+      }
+
+      background-image: linear-gradient(to bottom right, $color1, $color4);
+      color: #fff;
+      opacity: 0.8;
+
+      .section-b__left {
+        ul {
+          li {
+            padding: 2rem;
+            a {
+              color: #fff;
+              font-size: 2rem;
+              margin: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

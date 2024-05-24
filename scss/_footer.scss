@@ -1,0 +1,21 @@
+footer {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(54, 84, 134, 1),
+    rgba(15, 16, 53, 1)
+  );
+  font-size: 1.5rem;
+  padding: 2rem;
+  opacity: 0.6;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  ul {
+    display: flex;
+
+    li {
+      padding: 1rem;
+    }
+  }
+}
